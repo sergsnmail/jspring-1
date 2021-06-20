@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 @Component
-@ComponentScan("com.sergsnmail.spring.context.service")
 public class ProductController{
 
     @Autowired

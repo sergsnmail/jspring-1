@@ -13,7 +13,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@ComponentScan("com.sergsnmail.spring.context.repository")
 public class ProductService {
     @Autowired
     private ProductRepository productRepository;

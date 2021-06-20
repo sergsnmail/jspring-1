@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("com.sergsnmail.spring.context.controller")
+@ComponentScan("com.sergsnmail.spring.context")
 public class AppConfig {
     @Autowired
     private ProductController productController;
